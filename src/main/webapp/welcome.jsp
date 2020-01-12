@@ -10,8 +10,9 @@
 <p>Request URI: ${pageContext.request.requestURI}</p>
 
 
-<jsp:forward page="redirected.jsp"></jsp:forward>
-
+<jsp:forward page="redirected.jsp">
+    <jsp:param name="myParam" value="my value"/>
+</jsp:forward>
 
 </body>
 

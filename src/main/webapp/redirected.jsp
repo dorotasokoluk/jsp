@@ -13,6 +13,10 @@
 <body>
 <h1>
     Redirected Page
+    <jsp:include page="include/included.jsp"/>
+    <p>
+        Mój parametr to: <%= request.getParameter("myParam")%>
+    </p>
 
 
 </h1>
