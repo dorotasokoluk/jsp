@@ -14,7 +14,7 @@
 <p>Licznik odwiedzin = <%=++visitCounter %>
 </p>
 
-<%-- komnetarz JSP--% jest widoczny tylko w kodzie>
+<%-- komnetarz JSP--% jest widoczny tylko w kodzie--%>
 <!--komentarz HTML-- jest widoczny na stronie-->
 
 </body>
