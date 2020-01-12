@@ -4,18 +4,10 @@
 <html>
 <head>
 <body>
-<h1>
-    <%
-        String now = LocalDateTime.now().toString();
-        out.print(now);
-    %>
-</h1>
 
-<p>Licznik odwiedzin = <%=++visitCounter %>
-</p>
-
-<%-- komnetarz JSP--% jest widoczny tylko w kodzie--%>
-<!--komentarz HTML-- jest widoczny na stronie-->
+<p>Serwer name: ${pageContext.request.serverName}</p>
+<p>Serwer port: ${pageContext.request.serverPort}</p>
+<p>Request URI: ${pageContext.request.requestURI}</p>
 
 </body>
 
